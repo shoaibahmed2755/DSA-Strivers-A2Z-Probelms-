@@ -12,5 +12,8 @@ int main() {
     cin >> n;
 
     cout << "Factorial of " << n << " is " << f(n) << endl; 
+    int s;
+    cin >> s;
+    // getch(); --> c lang
     return 0;
 }

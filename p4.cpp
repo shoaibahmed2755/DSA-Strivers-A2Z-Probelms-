@@ -6,19 +6,29 @@ class student{
     public:
     string name;
     int age;
-    student(string n,int a){
+    int sem;
+    student(string n,int a, int b){
         name=n;
         age=a;
+        sem=b;
     }
-    void display(){
-        cout<<"Name: "<<name<<endl;
-        cout<<"Age: "<<age<<endl;
+    string name_getter(){
+        return name;
+    }
+    int age_getter(){
+        return age;
+    }
+    int sem_getter(){
+        return sem;
     }
 };
 int main(){
-    student s1("Rahul",20);
+    student s1("Rahul",20,7);
 
-    cout<<"Printing Using object: "<<endl;
-    cout<<"Name: "<<s1.name<<endl;
-    cout<<"Age: "<<s1.age<<endl;
+    // cout<<"Printing Using object: "<<endl;
+    cout<<"Name: "<<s1.name_getter()<<endl;
+    cout<<"Age: "<<s1.age_getter()<<endl;
+    cout<<"Semister: "<<s1.sem_getter()<<endl;
+    
+    getch();
 }
