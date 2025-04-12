@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "calculator.c": "cpp"
+        "calculator.c": "cpp",
+        "xstring": "cpp"
     }
 }
