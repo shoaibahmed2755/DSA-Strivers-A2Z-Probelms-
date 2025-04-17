@@ -2,6 +2,16 @@
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "calculator.c": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "exception": "cpp",
+        "ios": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "xiosbase": "cpp"
     }
 }
